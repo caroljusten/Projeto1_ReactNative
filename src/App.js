@@ -6,8 +6,8 @@ import Tela2 from './pages/Listagem/Tela2';
 const App = () => {
   return (
     //<Home />
-    <Tela1 />
-    //<Tela2 />
+    //<Tela1 />
+   <Tela2 />
   );
 };
 

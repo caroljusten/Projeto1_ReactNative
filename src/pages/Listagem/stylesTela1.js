@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         paddingTop: 15
     },
     titulo: {  
-        color: 'white'
+        alignItems: 'center',  
     },
     arrow: {
         paddingLeft: 12,

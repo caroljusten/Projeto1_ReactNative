@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
-import styles from '../home/styles';
+import styles from './stylesTela1';
 import LinearGradient from 'react-native-linear-gradient';
 
 const Tela1 = () => {
@@ -17,8 +17,8 @@ const Tela1 = () => {
                     </TouchableOpacity>    
                 </View>
                 <View style = {styles.titulo}>
-                    <Text style={{ fontSize: 12, color: 'white' }}>TOCANDO DO ÁLBUM</Text>
-                    <Text style={{ fontWeight: 'bold', fontSize: 14, color: 'white' }}>Black Sabbath (2009 Remastered Version)</Text>
+                    <Text style={{ fontFamily: 'Montserrat-Medium', fontSize: 12, color: 'white' }}>TOCANDO DO ÁLBUM</Text>
+                    <Text style={{ fontFamily:'Montserrat-Bold', fontSize: 14, color: 'white' }}>Black Sabbath (2009 Remastered Version)</Text>
                 </View>    
                 <View style={styles.menu}>
                     <TouchableOpacity>
@@ -37,8 +37,8 @@ const Tela1 = () => {
             </View>
             <View style = {styles.subTituloContainer}>
                 <View style = {{ justifyContent: 'flex-start' }}>
-                    <Text style={{ fontSize: 22, color: 'white', fontWeight: 'bold' }}>Behind the Wall of Sleep</Text>
-                    <Text style={{ fontSize: 16, color: 'white' }}>Black Sabbath</Text>
+                    <Text style={{ fontFamily:'Montserrat-Bold', fontSize: 22, color: 'white' }}>Behind the Wall of Sleep</Text>
+                    <Text style={{ fontFamily: 'Montserrat-Medium', fontSize: 16, color: 'white' }}>Black Sabbath</Text>
                 </View>  
                 <View style={styles.heart}>
                     <TouchableOpacity>  
